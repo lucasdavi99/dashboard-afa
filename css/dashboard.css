@@ -1,0 +1,89 @@
+.navbar{
+    padding-top: 15px auto;
+    
+    
+}
+
+.band{
+    color: linear-gradient(180deg);
+    display: block;
+    margin-top: -10px;
+}
+
+.navbar_left{
+    align-items: center;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+}
+
+.icone_inicio{
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: middle;
+    color: #006fc3;
+}
+
+.ponto{
+    padding: 10px;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    display: flex;
+    fill: currentColor;
+    justify-content: center;
+    stroke: none;
+    vertical-align: middle;
+    color: #cdd5dc;
+}
+
+.logo_afa{
+    width: 124.34px;
+    height: 39.98px;
+    vertical-align: middle;
+}
+
+.nome_uni{
+    display: block;
+    flex: 0 1 auto;
+    font-size: 1.5rem;
+    line-height: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+.nome_uni:hover{
+    color: #006fc3;
+    text-decoration: underline;
+}
+
+.grid{
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: inherit;
+    gap: 6px;
+    height: 100%;
+    margin: 0px;
+    min-height: 40px;
+    outline: none;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+        
+}
