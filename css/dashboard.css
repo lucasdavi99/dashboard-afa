@@ -51,13 +51,14 @@
     margin: 10px;
     width: 24px;
     height: 24px;
-    display: flex;
     align-items: center;
+    display: flex;
     fill: currentColor;
     justify-content: center;
     stroke: none;
     vertical-align: middle;
     color: #cdd5dc;
+    border: none
 }
 
 .logo_afa{
@@ -82,9 +83,21 @@
     text-decoration: underline;
 }
 
-.navbar_right{
+.conteiner{
+    align-items: center;
     display: flex;
-    align-items: flex-end;
+    height: 90px;
+    margin: 125px;
+}
+
+.navbar_right{
+    align-items: center;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 9px;
 }
 
 .grid{
@@ -93,11 +106,30 @@
     cursor: pointer;
     border: none;
     align-items: flex-end;
-    padding-left: 250px;
-    padding-bottom: 5px;
 }
 
 .grid2{
-    width: 28px;
-    height: 28px;
+    width: 39px;
+    height: 39px;
+}
+
+button{
+    align-items: center;
+    background: transparent;
+    border: none;
+    color: var(--d2l-color-ferrite);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: inherit;
+    gap: 6px;
+    height: 100%;
+    margin: 0px;
+    min-height: 40px;
+    outline: none;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
 }

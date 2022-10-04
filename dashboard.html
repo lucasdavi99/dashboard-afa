@@ -43,8 +43,10 @@
 
             </div>
 
+            <div class="conteiner"><slot name="left"></slot><div class="d2l-navigation-gutter"></div><slot name="right"></slot></div>
+
             <div class="navbar_right">
-                <a class="grid" href=""><img class="grid2" src="img/grid.png" alt=""></a>
+                <button><img class="grid2" src="img/grid.png" alt=""></button>
                 <svg class="point_right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                     preserveAspectRatio="xMidYMid meet" focusable="false">
                     <circle cx="12" cy="2" r="1.5"></circle>
@@ -53,6 +55,9 @@
                     <circle cx="12" cy="17" r="1.5"></circle>
                     <circle cx="12" cy="22" r="1.5"></circle>
                 </svg>
+                <div class="notifications">
+                    <button><img src="img/o-email.png" alt=""></button>
+                </div>
             </div>
         </nav>
     </header>
