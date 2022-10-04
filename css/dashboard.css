@@ -1,14 +1,15 @@
-.navbar{
-    padding-top: 15px auto;
-    
-    
-}
-
 .band{
     color: linear-gradient(180deg);
     display: block;
     margin-top: -10px;
 }
+
+.navbar{
+    padding-top: 15px auto;
+    display: flex;
+    
+}
+
 
 .navbar_left{
     align-items: center;
@@ -32,12 +33,26 @@
     color: #006fc3;
 }
 
-.ponto{
+.point_left{
     padding: 10px;
     width: 24px;
     height: 24px;
     align-items: center;
     display: flex;
+    fill: currentColor;
+    justify-content: center;
+    stroke: none;
+    vertical-align: middle;
+    color: #cdd5dc;
+}
+
+.point_right{
+    padding: 10px;
+    margin: 10px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
     fill: currentColor;
     justify-content: center;
     stroke: none;
@@ -67,23 +82,22 @@
     text-decoration: underline;
 }
 
+.navbar_right{
+    display: flex;
+    align-items: flex-end;
+}
+
 .grid{
-    align-items: center;
+    display: flex;
     background: transparent;
-    border: none;
     cursor: pointer;
-    display: inline-flex;
-    font-family: inherit;
-    font-size: inherit;
-    gap: 6px;
-    height: 100%;
-    margin: 0px;
-    min-height: 40px;
-    outline: none;
-    overflow: visible;
-    padding: 0px;
-    position: relative;
-    vertical-align: middle;
-    white-space: nowrap;
-        
+    border: none;
+    align-items: flex-end;
+    padding-left: 250px;
+    padding-bottom: 5px;
+}
+
+.grid2{
+    width: 28px;
+    height: 28px;
 }
